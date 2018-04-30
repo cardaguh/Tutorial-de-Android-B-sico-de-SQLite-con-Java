@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp">
+
+    <TextView
+        android:id="@+id/txtAux1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/edtNome"
+        android:width="70dip"
+        android:gravity="right"
+        android:text="@string/nombre"></TextView>
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="59dp"
+        android:width="190dip"
+        android:inputType="textPersonName"></EditText>
+
+
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnInserir"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:onClick="btnInsertar_click"
+            android:text="@string/insertar" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:onClick="btnCancelar_click"
+            android:text="@string/cancelar" />
+
+    </LinearLayout>
+
+</RelativeLayout>

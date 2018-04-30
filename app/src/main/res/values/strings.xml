@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SQLiteCRUD</string>
+    <string name="insertar">Insertar</string>
+    <string name="nombre">Nombre</string>
+    <string name="cancelar">Cancelar</string>
+</resources>
